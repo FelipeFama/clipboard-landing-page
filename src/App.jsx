@@ -1,0 +1,7 @@
+import "./styles/main.sass";
+
+function App() {
+  return <div>hello</div>;
+}
+
+export default App;
