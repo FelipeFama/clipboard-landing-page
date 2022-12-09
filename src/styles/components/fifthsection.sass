@@ -1,0 +1,11 @@
+@use '../mixins'
+
+.section-five
+    @include mixins.padding-section
+
+    ul
+        @include mixins.center
+        gap: 2rem
+
+        li img
+            width: 8rem

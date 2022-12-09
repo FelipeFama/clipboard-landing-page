@@ -1,0 +1,14 @@
+@use '../mixins'
+
+.section-six
+    @include mixins.padding-section
+
+    h2
+        margin-bottom: 1rem
+
+    p
+        margin-bottom: 3rem
+
+    ul
+        @include mixins.center
+        gap: 1rem
