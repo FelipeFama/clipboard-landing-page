@@ -1,0 +1,26 @@
+@use 'variables'
+
+@mixin center
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin btn-green
+    background-color: variables.$strong-cyan
+    color: variables.$white
+    padding: 0.8rem 2rem
+    border-radius: 30px
+    font-weight: bold
+    border: none
+    box-shadow: 4px 4px 10px hsl(171, 66%, 44%, 0.4)
+    cursor: pointer
+
+@mixin btn-blue
+    background-color: variables.$light-blue
+    color: variables.$white
+    padding: 0.8rem 2rem
+    border-radius: 30px
+    font-weight: bold
+    border: none
+    box-shadow: 4px 4px 10px hsl(171, 66%, 44%, 0.4)
+    cursor: pointer

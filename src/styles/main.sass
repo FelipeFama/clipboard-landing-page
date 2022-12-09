@@ -1,4 +1,5 @@
 @use 'variables'
+@use 'mixins'
 
 *
     margin: 0
@@ -9,8 +10,24 @@
 body
     text-align: center
 
+h1,h2,h3
+    color: variables.$dark-grayish-blue
+
+p
+    color: variables.$grayish-blue
+    line-height: 1.8
+
 img
     max-width: 100%
 
 ul
     list-style-type: none
+
+button
+    font-size: 16px
+
+.button-green
+    @include mixins.btn-green
+
+.button-blue
+    @include mixins.btn-blue

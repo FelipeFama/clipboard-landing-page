@@ -15,8 +15,8 @@ const ShowSection = () => {
           Instantly access your clipboard on all your devices.
         </p>
         <ul>
-          <li><button>Download for iOS</button></li>
-          <li><button>Download for Mac</button></li>
+          <li><button className="button-green">Download for iOS</button></li>
+          <li><button className="button-blue">Download for Mac</button></li>
         </ul>
       </article>
     </section>
