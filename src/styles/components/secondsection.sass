@@ -1,12 +1,13 @@
+@use '../mixins'
+
 .section-two
-    padding: 0 1.5rem 8rem
+    @include mixins.padding-section
 
     .computer > article:first-child
         margin-bottom: 3rem
 
     .computer > article:nth-child(2)
-        display: grid
-        grid-template-columns: repeat(1,1fr)
+        @include mixins.grid
         gap: 2rem
 
         h3

@@ -15,7 +15,7 @@ const SecondSection = () => {
       </article>
       <div className="computer">
         <article>
-          <img src={computer} alt="computer image" />
+          <img src={computer} alt="computer screen" />
         </article>
 
         <article>
