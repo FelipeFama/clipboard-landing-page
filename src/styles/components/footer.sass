@@ -1,0 +1,29 @@
+@use '../variables'
+@use '../mixins'
+
+.footer-container
+    background-color: variables.$alice-blue
+    padding: 4rem 1.5rem
+
+footer article
+    margin-bottom: 3rem
+
+    img
+        width: 4rem
+
+ul li
+    margin-bottom: 1rem
+
+    button
+        background-color: transparent
+        color: variables.$grayish-blue
+        font-size: 1rem
+        border: none
+        outline: none
+        cursor: pointer
+    
+    .social-media
+        @include mixins.center
+        gap: 2rem
+        margin-top: 3rem
+        cursor: pointer
