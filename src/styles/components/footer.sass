@@ -11,7 +11,7 @@ footer article
     img
         width: 4rem
 
-ul li
+footer ul li
     margin-bottom: 1rem
 
     button
@@ -21,9 +21,12 @@ ul li
         border: none
         outline: none
         cursor: pointer
-    
-    .social-media
-        @include mixins.center
-        gap: 2rem
-        margin-top: 3rem
-        cursor: pointer
+        transition: 0.5s ease-in-out
+        &:hover
+            color: variables.$strong-cyan
+
+.social-media
+    @include mixins.center
+    gap: 2rem
+    margin-top: 3rem
+    cursor: pointer
