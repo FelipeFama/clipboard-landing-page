@@ -9,9 +9,8 @@
 
 body
     text-align: center
-
-article
-    margin-block: 0.8rem
+    @media screen and (min-width: 1024px)
+        text-align: left
 
 h1,h2,h3
     color: variables.$dark-grayish-blue
@@ -19,6 +18,8 @@ h1,h2,h3
 p
     color: variables.$grayish-blue
     line-height: 1.8
+    @media screen and (min-width: 1024px)
+        font-size: 1.25rem
 
 img
     max-width: 100%
@@ -34,3 +35,10 @@ button
 
 .button-blue
     @include mixins.btn-blue
+
+@media screen and (min-width: 1024px)
+    h2
+        font-size: 2.5rem
+
+    h3
+        font-size: 1.5rem
