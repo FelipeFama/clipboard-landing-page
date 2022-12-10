@@ -2,9 +2,16 @@
 
 .section-three
     @include mixins.padding-section
+    @media screen and (min-width: 1024px)
+        max-width: 1200px
+        margin: auto
+        text-align: center
 
     article h2
         margin-bottom: 1rem
 
     article p
         margin-bottom: 3rem
+        @media screen and (min-width: 1024px)
+            width: 500px
+            margin: 0 auto 3rem

@@ -7,31 +7,34 @@
         margin: auto
         padding-bottom: 20rem
 
-@media screen and (min-width: 1024px)
-    article:first-child
-        text-align: center
-
-article:first-child h2
-    margin-bottom: 1rem
-
-article:first-child p
-    margin-bottom: 2.5rem
     @media screen and (min-width: 1024px)
-        width: 600px
-        margin: 0 auto 10rem
+        article:first-child
+            text-align: center
 
-@media screen and (min-width: 1024px)
-    .computer
-        display: grid
-        grid-template-columns: repeat(2,1fr)
-        position: relative
-        gap: 4rem
-        align-items: center
-        > article:first-child img
-            position: absolute
-            top: -20%
-            left: -20vw
-            width: 50rem
+    article:first-child h2
+        margin-bottom: 1rem
+
+    article:first-child p
+        margin-bottom: 2.5rem
+        @media screen and (min-width: 1024px)
+            width: 600px
+            margin: 0 auto 10rem
+
+    @media screen and (min-width: 1024px)
+        .computer
+            display: grid
+            grid-template-columns: repeat(2,1fr)
+            position: relative
+            gap: 4rem
+            align-items: center
+            > article:first-child img
+                position: absolute
+                top: -20%
+                left: -20vw
+                width: 50rem
+
+    .computer > article:first-child
+        margin-bottom: 3rem
 
     .computer > article:nth-child(2)
         @include mixins.grid
