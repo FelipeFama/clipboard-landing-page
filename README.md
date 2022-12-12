@@ -33,7 +33,7 @@ yarn run dev
 
 - SASS preprocessor 
 
--SASS mixins
+- SASS mixins
 
 - Grid and Flex
 
