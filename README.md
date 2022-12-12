@@ -1,6 +1,10 @@
 # clipboard-landing-page-master
 
+## Desktop Layout
+![clipboard-landing-page-master-desktop](https://user-images.githubusercontent.com/91050670/207093677-63e233ef-02d9-4636-a834-cd1c57f1369d.png)
 
+## Responsive Layout
+![clipboard-landing-page-master-responsive](https://user-images.githubusercontent.com/91050670/207094505-ca2332e9-a8c6-4325-a374-345de037802b.png)
 
 
 ## :rocket: Run Project
@@ -27,9 +31,9 @@ yarn run dev
 
 - Semantic HTML5 markup
 
-- SASS preprocessor
+- SASS preprocessor 
 
-- CSS custom properties
+-SASS mixins
 
 - Grid and Flex
 
