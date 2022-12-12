@@ -1,8 +1,6 @@
 import React from "react";
 import Logo from "../images/logo.svg";
-import facebookicon from "../images/icon-facebook.svg";
-import instagramicon from "../images/icon-instagram.svg";
-import twittericon from "../images/icon-twitter.svg";
+import { FaFacebookSquare, FaTwitter, FaInstagram } from "react-icons/fa";
 import "../styles/components/footer.sass";
 
 const Footer = () => {
@@ -38,13 +36,19 @@ const Footer = () => {
 
         <ul className="social-media">
           <li>
-            <img src={facebookicon} alt="facebook icon" />
+            <a href="#">
+              <FaFacebookSquare />
+            </a>
           </li>
           <li>
-            <img src={instagramicon} alt="instagram icon" />
+            <a href="#">
+              <FaTwitter />
+            </a>
           </li>
           <li>
-            <img src={twittericon} alt="twitter icon" />
+            <a href="#">
+              <FaInstagram />
+            </a>
           </li>
         </ul>
       </footer>

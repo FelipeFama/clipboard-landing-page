@@ -15,6 +15,15 @@ body
 h1,h2,h3
     color: variables.$dark-grayish-blue
 
+button
+    font-size: 16px
+
+.button-green
+    @include mixins.btn-green
+
+.button-blue
+    @include mixins.btn-blue
+
 p
     color: variables.$grayish-blue
     line-height: 1.8
@@ -26,15 +35,6 @@ img
 
 ul
     list-style-type: none
-
-button
-    font-size: 16px
-
-.button-green
-    @include mixins.btn-green
-
-.button-blue
-    @include mixins.btn-blue
 
 @media screen and (min-width: 1024px)
     h2
