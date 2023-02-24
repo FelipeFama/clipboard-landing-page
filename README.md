@@ -1,4 +1,4 @@
-# clipboard-landing-page-master
+# clipboard-landing-page
 
 ## Desktop Layout
 ![clipboard-landing-page-master-desktop](https://user-images.githubusercontent.com/91050670/207093677-63e233ef-02d9-4636-a834-cd1c57f1369d.png)
