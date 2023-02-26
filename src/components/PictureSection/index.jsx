@@ -1,9 +1,9 @@
 import React from "react";
-import bgHeaderMobile from "../images/bg-header-mobile.png";
-import bgHeaderDesktop from "../images/bg-header-desktop.png";
-import "../styles/components/picture.sass";
+import bgHeaderMobile from "../../images/bg-header-mobile.png";
+import bgHeaderDesktop from "../../images/bg-header-desktop.png";
+import "./style.sass";
 
-const Picture = () => {
+const PictureSection = () => {
   return (
     <div className="picture">
       <picture>
@@ -14,4 +14,4 @@ const Picture = () => {
   );
 };
 
-export default Picture;
+export default PictureSection;

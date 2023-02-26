@@ -1,10 +1,10 @@
 import React from "react";
-import logogoogle from "../images/logo-google.png";
-import logoibm from "../images/logo-ibm.png";
-import logomicrosoft from "../images/logo-microsoft.png";
-import logohp from "../images/logo-hp.png";
-import logovectorgraphics from "../images/logo-vector-graphics.png";
-import "../styles/components/fifthsection.sass";
+import logogoogle from "../../images/logo-google.png";
+import logoibm from "../../images/logo-ibm.png";
+import logomicrosoft from "../../images/logo-microsoft.png";
+import logohp from "../../images/logo-hp.png";
+import logovectorgraphics from "../../images/logo-vector-graphics.png";
+import "./styles.sass";
 
 const FifthSecion = () => {
   return (

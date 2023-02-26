@@ -1,8 +1,8 @@
 import React from "react";
-import blacklist from "../images/icon-blacklist.svg";
-import icontext from "../images/icon-text.svg";
-import iconpreview from "../images/icon-preview.svg";
-import "../styles/components/fourthsection.sass";
+import blacklist from "../../images/icon-blacklist.svg";
+import icontext from "../../images/icon-text.svg";
+import iconpreview from "../../images/icon-preview.svg";
+import "./styles.sass";
 
 const FourthSection = () => {
   return (

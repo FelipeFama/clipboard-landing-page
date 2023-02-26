@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../images/logo.svg";
-import "../styles/components/showsection.sass";
+import Logo from "../../images/logo.svg";
+import "./styles.sass";
 
 const ShowSection = () => {
   return (

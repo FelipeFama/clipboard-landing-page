@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../images/logo.svg";
+import Logo from "../../images/logo.svg";
 import { FaFacebookSquare, FaTwitter, FaInstagram } from "react-icons/fa";
-import "../styles/components/footer.sass";
+import "./styles.sass";
 
 const Footer = () => {
   return (

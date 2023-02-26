@@ -1,25 +1,17 @@
-@use '../mixins'
+@use '../../styles/mixins'
 
-.section-six
+.section-three
     @include mixins.padding-section
     @media screen and (min-width: 1024px)
         max-width: 1200px
         margin: auto
         text-align: center
 
-    h2
+    article h2
         margin-bottom: 1rem
 
-    p
+    article p
         margin-bottom: 3rem
-        padding-inline: 5rem
         @media screen and (min-width: 1024px)
-            width: 620px
+            width: 500px
             margin: 0 auto 3rem
-
-    ul
-        @include mixins.center
-        flex-direction: column
-        gap: 1rem
-        @media screen and (min-width: 768px)
-            flex-direction: row

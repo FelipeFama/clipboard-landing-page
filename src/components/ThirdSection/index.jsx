@@ -1,6 +1,6 @@
 import React from "react";
-import devices from "../images/image-devices.png";
-import "../styles/components/thirdsection.sass";
+import devices from "../../images/image-devices.png";
+import "./styles.sass";
 
 const ThirdSection = () => {
   return (

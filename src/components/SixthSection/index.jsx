@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/components/sixthsection.sass";
+import "./styles.sass";
 
 const SixthSection = () => {
   return (

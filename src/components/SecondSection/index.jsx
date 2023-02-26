@@ -1,6 +1,6 @@
 import React from "react";
-import computer from "../images/image-computer.png";
-import "../styles/components/secondsection.sass";
+import computer from "../../images/image-computer.png";
+import "./styles.sass";
 
 const SecondSection = () => {
   return (
