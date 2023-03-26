@@ -1,11 +1,17 @@
 # clipboard-landing-page
 
-## Desktop Layout
-![clipboard-landing-page-master-desktop](https://user-images.githubusercontent.com/91050670/207093677-63e233ef-02d9-4636-a834-cd1c57f1369d.png)
+## Screenshots
 
-## Responsive Layout
-![clipboard-landing-page-master-responsive](https://user-images.githubusercontent.com/91050670/207094505-ca2332e9-a8c6-4325-a374-345de037802b.png)
-
+<table>
+  <tr>
+    <td>Mobile Version</td>
+    <td>Desktop Version</td>
+  </tr>
+  <tr valign="top">
+    <td> <img src="https://user-images.githubusercontent.com/91050670/227750104-d72bee40-9de8-409a-bc7f-08df876e0789.png" alt="mobile version" /></td>
+    <td><img src="https://user-images.githubusercontent.com/91050670/227749941-b0d4794e-ffc0-4a21-921f-1dbdd13bb06d.png" alt="desktop version" /></td>
+  </tr>
+</table>
 
 ## :rocket: Run Project
 
